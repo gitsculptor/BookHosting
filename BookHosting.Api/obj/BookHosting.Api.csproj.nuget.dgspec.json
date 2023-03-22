@@ -1,0 +1,336 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
+        "projectName": "BookHosting.Api",
+        "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
+        "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+        "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj"
+              },
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj"
+              },
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj",
+        "projectName": "BookHosting.Application",
+        "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj",
+        "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+        "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentResults": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj",
+        "projectName": "BookHosting.Contracts",
+        "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj",
+        "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+        "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
+        "projectName": "BookHosting.Domain",
+        "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
+        "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+        "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj",
+        "projectName": "BookHosting.Infrastructure",
+        "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj",
+        "packagesPath": "/Users/prakashkumar/.nuget/packages/",
+        "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.26.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

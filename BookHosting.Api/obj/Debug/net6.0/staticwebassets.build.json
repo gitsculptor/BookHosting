@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Gr5oJFDOkCWm3c62SUDPJox29olKWCybIER7PbMi33g=",
+  "Source": "BookHosting.Api",
+  "BasePath": "_content/BookHosting.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
