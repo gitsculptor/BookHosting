@@ -1,4 +1,4 @@
-﻿using FluentResults;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +9,7 @@ namespace BookHosting.Application.Services.Authentication
 {
     public interface IAuthenticationService
     {
-        Result<AuthenticationResult> Login(string username, string password);
-        Result<AuthenticationResult> Register(string email,string firstName,string lastName, string password);
+        AuthenticationResult Login(string username, string password);
+        AuthenticationResult Register(string email,string firstName,string lastName, string password);
     }
 }

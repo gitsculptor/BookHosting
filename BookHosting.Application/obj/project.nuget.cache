@@ -1,13 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "7OpYABZPxYtUDX5RMHcuWgJzoz7S8BbIXvlX/zohxeAe6HCVLkiK9/fZPeVXoimM7i7qDUQ0vYRSLMauBcAnaA==",
+  "dgSpecHash": "L+6q/4ox1ayd3h3TI2SHrhF29poHVZ1nvJ/MAFm0uz9dTR3mvF0fv2g2krvycABZ4flPqP0UymHx21n3INP+Pg==",
   "success": true,
   "projectFilePath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj",
   "expectedPackageFiles": [
-    "/Users/prakashkumar/.nuget/packages/fluentresults/3.15.1/fluentresults.3.15.1.nupkg.sha512",
-    "/Users/prakashkumar/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "/Users/prakashkumar/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
-    "/Users/prakashkumar/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/Users/prakashkumar/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

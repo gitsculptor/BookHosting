@@ -28,3 +28,5 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Application/obj/Debu
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Application/obj/Debug/net6.0/refint/BookHosting.Application.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Application/obj/Debug/net6.0/BookHosting.Application.pdb
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Application/obj/Debug/net6.0/ref/BookHosting.Application.dll
+/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/bin/Debug/net6.0/BookHosting.Contracts.dll
+/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/bin/Debug/net6.0/BookHosting.Contracts.pdb

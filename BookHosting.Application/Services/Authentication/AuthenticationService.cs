@@ -1,10 +1,13 @@
 ﻿using BookHosting.Application.Common.Interfaces.Authentication;
 using BookHosting.Application.Common.Interfaces.Persistence;
+using BookHosting.Application.Exceptions;
 using BookHosting.Domain.Entities;
-using FluentResults;
+using BookHosting.Domain.Exceptions;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -22,16 +25,20 @@ namespace BookHosting.Application.Services.Authentication
             _userRepository = userRepository;
         }
 
-        public Result<AuthenticationResult> Login(string email, string password)
+        public AuthenticationResult Login(string email, string password)
         {
-            if(_userRepository.GetUserByEmail(email) is not User user)
+            User? user = _userRepository.GetUserByEmail(email);
+
+            if(user is null)
             {
-                return Result.Fail<AuthenticationResult>(errorMessage:"User does not Exists");
+                // return Result.Fail<AuthenticationResult>(errorMessage:"User does not Exists");
+                throw new ResourceNotFoundException("User Not Found");
             }
 
             if(user.Password !=password)
             {
-                 return Result.Fail<AuthenticationResult>(errorMessage:"Invalid password");
+                // return Result.Fail<AuthenticationResult>(errorMessage:"Invalid password");
+                throw new AccessDeniedException("Invalid Passowrd");
             }
 
             var token = _jwtTokenGenrator.GenerateToken(user);
@@ -40,12 +47,13 @@ namespace BookHosting.Application.Services.Authentication
 
         }
 
-        public Result<AuthenticationResult> Register(string email, string firstName, string lastName, string password)
+        public AuthenticationResult Register(string email, string firstName, string lastName, string password)
         {
+
             //check if already exist
             if (_userRepository.GetUserByEmail(email) is not null)
             {
-                return Result.Fail<AuthenticationResult>(errorMessage:"User Alreeadys Exists");
+                throw new ResourceAlreadyExistsException("User already Exists");
             }
 
             //Create User in database (userId)
@@ -68,5 +76,9 @@ namespace BookHosting.Application.Services.Authentication
 
             return new AuthenticationResult(user, token);
         }
+
+       
     }
+
+    
 }

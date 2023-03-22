@@ -98,6 +98,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj": {
+                "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj"
+              },
               "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj": {
                 "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj"
               }
@@ -114,10 +117,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FluentResults": {
-              "target": "Package",
-              "version": "[3.15.1, )"
-            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"

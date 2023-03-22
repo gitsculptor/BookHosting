@@ -62,7 +62,6 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Api/bin/Debug/net6.0
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/BookHosting.Api.runtimeconfig.json
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/BookHosting.Api.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/BookHosting.Api.pdb
-/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/FluentResults.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Binder.dll
@@ -72,7 +71,6 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Api/bin/Debug/net6.0
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Abstractions.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.FileProviders.Physical.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.FileSystemGlobbing.dll
-/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Options.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Api/bin/Debug/net6.0/Microsoft.Extensions.Primitives.dll

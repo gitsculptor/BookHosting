@@ -1,6 +1,8 @@
+using BookHosting.Application.Exceptions;
 using BookHosting.Application.Services.Authentication;
 using BookHosting.Contracts.Authentication;
-
+using BookHosting.Domain;
+using BookHosting.Domain.Exceptions;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookHosting.Api.Controllers;
@@ -18,22 +20,46 @@ public class AuthenticationController : ControllerBase
 
     [Route("register")]
     [HttpPost]
-    public IActionResult Register(RegisterRequest request)
+    public ActionResult<AuthenticationResult> Register(RegisterRequest request)
     {
-        var authResult = _authenticationService.Register(request.Email, request.FirstName, request.LastName, request.Password);
 
-        if (authResult.IsSuccess)
+        //if (authResult.IsSuccess)
+        //{
+        //    var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
+        //                                            authResult.Value.user.Email,
+        //                                            authResult.Value.user.FirstName,
+        //                                            authResult.Value.user.LastName,
+        //                                            authResult.Value.token);
+        //    return Ok(authResponse);
+
+        //}
+
+        //return Problem(statusCode: StatusCodes.Status409Conflict, detail: "adfsgfdgh");
+
+        try
         {
-            var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
-                                                    authResult.Value.user.Email,
-                                                    authResult.Value.user.FirstName,
-                                                    authResult.Value.user.LastName,
-                                                    authResult.Value.token);
-            return Ok(authResponse);
+            var authResult = _authenticationService.Register(request.Email, request.FirstName, request.LastName, request.Password);
+
+            return Created("", new OkResponse<AuthenticationResult>()
+            {
+                Result = authResult,
+                StatusCode=StatusCodes.Status201Created,
+                Message="Account Created Successfully"
+           
+
+            });
+
+        }
+        catch (ResourceAlreadyExistsException ex)
+        {
+            return Conflict(new OkResponse<string>()
+            {
+                Result=ex.Message,
+                StatusCode=StatusCodes.Status400BadRequest
+            });
 
         }
 
-        return Problem(statusCode: StatusCodes.Status409Conflict, detail: "adfsgfdgh");
 
     }
 
@@ -43,19 +69,53 @@ public class AuthenticationController : ControllerBase
     public IActionResult Login(LoginRequest request)
     {
 
-        var authResult = _authenticationService.Login(request.Email, request.Password);
-
-        if (authResult.IsSuccess)
+        try
         {
-            var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
-                                                          authResult.Value.user.Email,
-                                                          authResult.Value.user.FirstName,
-                                                          authResult.Value.user.LastName,
-                                                          authResult.Value.token);
+            var authResult = _authenticationService.Login(request.Email, request.Password);
+            var authResponse = new AuthenticationResponse(authResult.user.Id,
+                                                          authResult.user.Email,
+                                                          authResult.user.FirstName,
+                                                          authResult.user.LastName,
+                                                          authResult.token);
+            return Ok(new OkResponse<AuthenticationResponse>()
+            {
+                Result=authResponse,
+                Message="Login Success",
+                StatusCode=StatusCodes.Status200OK
+
+            });
 
         }
+        catch (ResourceNotFoundException ex)
+        {
+            return Conflict(new OkResponse<string>()
+            {
+                Result = ex.Message,
+                StatusCode = StatusCodes.Status400BadRequest
+            });
 
-        return Problem(statusCode: StatusCodes.Status401Unauthorized, detail: "fuck off not allowed");
+        }
+        catch(AccessDeniedException ex)
+        {
+            return Conflict(new OkResponse<string>()
+            {
+                Result = ex.Message,
+                StatusCode = StatusCodes.Status401Unauthorized
+            });
+        }
+        //var authResult = _authenticationService.Login(request.Email, request.Password);
+
+        //if (authResult.IsSuccess)
+        //{
+        //    //var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
+        //    //                                              authResult.Value.user.Email,
+        //    //                                              authResult.Value.user.FirstName,
+        //    //                                              authResult.Value.user.LastName,
+        //    //                                              authResult.Value.token);
+
+        //}
+
+        //return Problem(statusCode: StatusCodes.Status401Unauthorized, detail: "fuck off not allowed");
 
     }
 

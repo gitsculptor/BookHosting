@@ -32,3 +32,5 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Infrastructure/obj/D
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/obj/Debug/net6.0/refint/BookHosting.Infrastructure.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/obj/Debug/net6.0/BookHosting.Infrastructure.pdb
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/obj/Debug/net6.0/ref/BookHosting.Infrastructure.dll
+/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/bin/Debug/net6.0/BookHosting.Contracts.dll
+/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/bin/Debug/net6.0/BookHosting.Contracts.pdb
