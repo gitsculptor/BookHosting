@@ -22,3 +22,15 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Contracts/obj/Debug/
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/refint/BookHosting.Contracts.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.pdb
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/ref/BookHosting.Contracts.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/bin/Debug/net6.0/BookHosting.Contracts.deps.json
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/bin/Debug/net6.0/BookHosting.Contracts.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/bin/Debug/net6.0/BookHosting.Contracts.pdb
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.csproj.AssemblyReference.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.AssemblyInfoInputs.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.AssemblyInfo.cs
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.csproj.CoreCompileInputs.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/refint/BookHosting.Contracts.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/BookHosting.Contracts.pdb
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/obj/Debug/net6.0/ref/BookHosting.Contracts.dll

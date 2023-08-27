@@ -22,3 +22,15 @@ C:/Users/praka/Documents/MyProjects/BookHosting/BookHosting.Domain/obj/Debug/net
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/refint/BookHosting.Domain.dll
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.pdb
 /Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/ref/BookHosting.Domain.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/bin/Debug/net6.0/BookHosting.Domain.deps.json
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/bin/Debug/net6.0/BookHosting.Domain.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/bin/Debug/net6.0/BookHosting.Domain.pdb
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.csproj.AssemblyReference.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.AssemblyInfoInputs.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.AssemblyInfo.cs
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.csproj.CoreCompileInputs.cache
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/refint/BookHosting.Domain.dll
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/BookHosting.Domain.pdb
+/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/Debug/net6.0/ref/BookHosting.Domain.dll

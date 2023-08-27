@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+6q/4ox1ayd3h3TI2SHrhF29poHVZ1nvJ/MAFm0uz9dTR3mvF0fv2g2krvycABZ4flPqP0UymHx21n3INP+Pg==",
+  "dgSpecHash": "qBS7auvjWMBNxssjc4vnn68H4tWkKGTm7mmBhpBENySNMuknCFwk49n5ITnKp3RKV6gIiq2Qad0/7dSWzDItzw==",
   "success": true,
-  "projectFilePath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj",
+  "projectFilePath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Application/BookHosting.Application.csproj",
   "expectedPackageFiles": [
     "/Users/prakashkumar/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],

@@ -22,20 +22,6 @@ public class AuthenticationController : ControllerBase
     [HttpPost]
     public ActionResult<AuthenticationResult> Register(RegisterRequest request)
     {
-
-        //if (authResult.IsSuccess)
-        //{
-        //    var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
-        //                                            authResult.Value.user.Email,
-        //                                            authResult.Value.user.FirstName,
-        //                                            authResult.Value.user.LastName,
-        //                                            authResult.Value.token);
-        //    return Ok(authResponse);
-
-        //}
-
-        //return Problem(statusCode: StatusCodes.Status409Conflict, detail: "adfsgfdgh");
-
         try
         {
             var authResult = _authenticationService.Register(request.Email, request.FirstName, request.LastName, request.Password);
@@ -45,8 +31,6 @@ public class AuthenticationController : ControllerBase
                 Result = authResult,
                 StatusCode=StatusCodes.Status201Created,
                 Message="Account Created Successfully"
-           
-
             });
 
         }
@@ -103,19 +87,9 @@ public class AuthenticationController : ControllerBase
                 StatusCode = StatusCodes.Status401Unauthorized
             });
         }
-        //var authResult = _authenticationService.Login(request.Email, request.Password);
+        
 
-        //if (authResult.IsSuccess)
-        //{
-        //    //var authResponse = new AuthenticationResponse(authResult.Value.user.Id,
-        //    //                                              authResult.Value.user.Email,
-        //    //                                              authResult.Value.user.FirstName,
-        //    //                                              authResult.Value.user.LastName,
-        //    //                                              authResult.Value.token);
-
-        //}
-
-        //return Problem(statusCode: StatusCodes.Status401Unauthorized, detail: "fuck off not allowed");
+        
 
     }
 

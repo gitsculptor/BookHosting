@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookHosting.Domain\BookHosting.Domain.csproj" />
     <ProjectReference Include="..\BookHosting.Contracts\BookHosting.Contracts.csproj" />
+    <ProjectReference Include="..\BookHosting.Domain\BookHosting.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
+      "projectUniqueName": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
       "projectName": "BookHosting.Domain",
-      "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
+      "projectPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/BookHosting.Domain.csproj",
       "packagesPath": "/Users/prakashkumar/.nuget/packages/",
-      "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Domain/obj/",
+      "outputPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }

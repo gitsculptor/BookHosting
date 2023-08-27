@@ -1640,11 +1640,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
+      "projectUniqueName": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
       "projectName": "BookHosting.Api",
-      "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
+      "projectPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Api/BookHosting.Api.csproj",
       "packagesPath": "/Users/prakashkumar/.nuget/packages/",
-      "outputPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Api/obj/",
+      "outputPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Api/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/prakashkumar/.nuget/NuGet/NuGet.Config"
@@ -1653,20 +1653,21 @@
         "net6.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj": {
-              "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Application/BookHosting.Application.csproj"
+            "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Application/BookHosting.Application.csproj": {
+              "projectPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Application/BookHosting.Application.csproj"
             },
-            "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj": {
-              "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj"
+            "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj": {
+              "projectPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj"
             },
-            "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj": {
-              "projectPath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj"
+            "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj": {
+              "projectPath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj"
             }
           }
         }
@@ -1705,7 +1706,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
       }
     }
   }

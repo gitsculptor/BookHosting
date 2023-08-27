@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YcIs/P/u8t40C3wGHmvz+klp4V2DwSmb37kmFC7uSnknPgoJN9N/xmS50iabwc2gEDH5JvJJrXVarBskMMeAyw==",
+  "dgSpecHash": "oj2GlS6VixPfLSfd/ZyZfUf7kekrkNaBUDQ6B9Tn38kBzVe6CES6S0WV6ahanlRBsJewU1t+H+fyA70v8ZYHDA==",
   "success": true,
-  "projectFilePath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj",
+  "projectFilePath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Infrastructure/BookHosting.Infrastructure.csproj",
   "expectedPackageFiles": [
     "/Users/prakashkumar/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/prakashkumar/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fajEFcW2iW0gqdhUR2K/q/Y3UwdLFS3JduHl9cGca2O77v+nwkVneQLgb5rdIKSXUwlLeTTB5mBYYfq93ll5/w==",
+  "dgSpecHash": "XeVmjlcvVWpf8VOjQNLzgdrgVQDthsQRTfgjBpl/8OZKXThPewdcee5IbnLcxnhA7nt1nAj2Vo1ygq9Zb7lTYA==",
   "success": true,
-  "projectFilePath": "/Users/prakashkumar/Projects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj",
+  "projectFilePath": "/Users/prakashkumar/RiderProjects/BookHosting/BookHosting.Contracts/BookHosting.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

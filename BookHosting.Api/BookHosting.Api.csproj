@@ -18,13 +18,23 @@
     <ProjectReference Include="..\BookHosting.Contracts\BookHosting.Contracts.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
-    <ProjectReference Include="..\BookHosting.Infrastructure\BookHosting.Infrastructure.csproj">
-      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
-    </ProjectReference>
+    <ProjectReference Include="..\BookHosting.Infrastructure\BookHosting.Infrastructure.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="NewFolder\" />
+    <Compile Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="NewFolder\**" />
   </ItemGroup>
 
 </Project>
